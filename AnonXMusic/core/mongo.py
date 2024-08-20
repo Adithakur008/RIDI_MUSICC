@@ -11,10 +11,10 @@ TEMP_MONGODB = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp
 
 if config.MONGO_DB_URI is None:
     LOGGER(name).warning(
-        "𝐍o 𝐌ONGO 𝐃B 𝐔RL 𝐅ound.. 𝐘our 𝐁ot 𝐖ill 𝐖ork 𝐎n 𝐕𝐈𝐏 𝐌𝐔𝐒𝐈𝐂 𝐃atabase"
+        "𝐍o 𝐌ONGO 𝐃B 𝐔RL 𝐅ound.. 𝐘our 𝐁ot 𝐖ill 𝐖ork 𝐎n 𝐃𝐞𝐬𝐭𝐫𝐨𝐲𝐞𝐫 𝐌𝐔𝐒𝐈𝐂 𝐃atabase"
     )
     temp_client = Client(
-        "VIPMUSIC",
+        "RIDIMUSIC",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
